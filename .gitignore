@@ -1,0 +1,12 @@
+# Generated reports
+iteration_check_*.md
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+.idea/

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "martianmobile",
+  "description": "Martian Mobile's public Claude Code plugins — quant research and trading-ops tooling, sanitized from internal workflows.",
+  "owner": {
+    "name": "Martian Mobile",
+    "email": "martin@martianmobile.com"
+  },
+  "plugins": [
+    {
+      "name": "strategy-evaluation",
+      "description": "Evaluate trading-strategy backtests. First capability: convergence analysis across a variant sweep (ship / iterate / kill), with the numbers behind the verdict. Extensible to robustness, walk-forward, and regime evaluators.",
+      "source": "./plugins/strategy-evaluation",
+      "category": "data",
+      "homepage": "https://github.com/martianmobile/strategy-evaluation"
+    }
+  ]
+}
